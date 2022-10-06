@@ -1,0 +1,140 @@
+#cta {
+    background-color: hsl(0, 0%, 100%);
+  }
+  
+  .row__cta {
+    background-image: linear-gradient(to right, hsl(0, 0%, 16%), hsl(0, 1%, 63%));
+    border-radius: 20px;
+    padding: 5rem 4rem;
+    box-shadow: -1px 3px 40px 24px hsla(0, 0%, 0%, 0.205);
+    overflow: hidden;
+  }
+  
+  
+  .row__cta.appear {
+    animation: slide-right 800ms ease;
+  }
+  
+  .cta__inside {
+    display: flex;
+    position: relative;
+  }
+  
+  .cta__description {
+    width: 60%;
+  }
+  
+  .cta__img--wrapper {
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  
+  .cta__img {
+    width: 100%;
+  }
+  
+  .cta__input--wrapper {
+    background-color: hsl(223, 64%, 98%);
+    width: 75%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 0.4rem 0.8rem 0.8rem;
+    position: relative;
+    border: 2px solid transparent;
+    transition: all 300ms ease;
+    margin-bottom: 8px;
+  }
+  
+  .cta__input--wrapper:hover, .cta__input--wrapper:focus {
+    border-color: hsl(219, 9%, 71%);
+  }
+  
+  .cta__input {
+    background-color: transparent;
+    border: none;
+    width: 70%;
+    outline: none;
+    font-weight: 500;
+    font-size: 17px;
+    color: hsl(220, 13%, 13%);
+  }
+  
+  .cta__title {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  
+  .cta__para {
+    color: hsl(218, 100%, 98%);
+    font-weight: 500;
+    font-size: 18px;
+    width: 67%;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+  }
+  
+  .cta__btn {
+    background-color: hsl(0, 1%, 38%);
+    color: hsl(225, 67%, 98%);
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    transform: translate(-2%, -50%);
+    cursor: pointer;
+    transition: all 300ms ease;
+    font-size: 16px;
+  }
+  
+  .cta__btn:hover {
+    background-color: hsl(0, 0%, 0%);
+  }
+  
+  .success__message {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 300ms ease;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .success__message--shown {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .fa-spinner {
+    color: hsl(0, 0%, 34%);
+    font-size: 40px;
+    padding: 4rem;
+    animation: spinner 600ms infinite linear;
+  }
+
+  @keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  
+.fa-spinner-account {
+    color: #fff;
+    padding: 0;
+    animation: spinner 600ms infinite linear;
+    font-size: inherit;
+  }
+
+
