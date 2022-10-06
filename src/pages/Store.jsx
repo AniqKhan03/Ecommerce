@@ -53,7 +53,7 @@ function Store({ products }) {
         />
 
         <div className="flex flex-col justify-center">
-          <div className="flex justify-between px-10 max-w-[1230px] flex-1">
+          <div className="flex justify-center lg:justify-between px-10 max-w-[1230px] flex-1">
             <p></p>
             <select
               name=""
