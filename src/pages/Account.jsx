@@ -23,9 +23,6 @@ const Account = () => {
     try {
       await signUp(email, password);
       setLoading(false);
-      setDoc(doc(db, "users", email), {
-        savedSneakers: [],
-      });
     } catch (error) {
       setError(error.message);
       setLoading(false);
