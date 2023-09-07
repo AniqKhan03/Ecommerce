@@ -14,7 +14,7 @@ function Slider() {
     {
       title: "The #1 Online Store to find your new pair of Kicks",
       button: "Shop Now",
-      img: "https://www.mensjournal.com/wp-content/uploads/2020/04/BeginnerRunner.jpg?quality=86&strip=all",
+      img: "https://sportshub.cbsistatic.com/i/r/2023/08/15/d8cee423-3773-4835-b927-f2e1048de57b/thumbnail/1200x675/c95e079aea9cb8ea3a79ec1a1137b565/nike-running-shoe-hero.jpg",
       link: "/shop",
       brand: "",
     },
