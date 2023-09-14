@@ -174,7 +174,7 @@ const Account = () => {
                   {errorMessage}
                 </p>
                 <p className="w-full leading-normal mb-4 text-sm ">
-                  Already have an account?
+                  Don't have an account?
                   <span className="cursor-pointer" onClick={switchModal}>
                   {" "}
                     Register
