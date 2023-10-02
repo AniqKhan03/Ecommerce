@@ -36,13 +36,13 @@ function Nav() {
           <ShoppingCartIcon />
         </Link>
 
-        {user?.email ? (
+        {/* {user?.email ? (
           <NavAccount />
         ) : (
           <>
             <Account />
           </>
-        )}
+        )} */}
       </div>
     </div>
   );

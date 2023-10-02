@@ -11,14 +11,15 @@ function Cart() {
   const { cart } = useContext(AppContext);
   const { removeFromCart } = useContext(AppContext);
 
-  const { user } = UserAuth();
+  // const { user } = UserAuth();
 
   async function addUserCart() {
-    const userData = {
-      userCart: cart,
-      userEmail: user?.email,
-    };
-    await addDoc(collection(db, "userCarts"), userData);
+    console.log("Test");
+    // const userData = {
+    //   userCart: cart,
+    //   userEmail: user?.email,
+    // };
+    // await addDoc(collection(db, "userCarts"), userData);
   }
 
   const subTotal = () => {
