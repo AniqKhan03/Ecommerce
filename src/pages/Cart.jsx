@@ -14,7 +14,7 @@ function Cart() {
   // const { user } = UserAuth();
 
   async function addUserCart() {
-    console.log("Test");
+    console.log(cart);
     // const userData = {
     //   userCart: cart,
     //   userEmail: user?.email,
